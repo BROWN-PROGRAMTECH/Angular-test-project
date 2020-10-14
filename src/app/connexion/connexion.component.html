@@ -1,0 +1,28 @@
+<div class="col-sm-8 col-sm-offset-2">
+  <form (ngSubmit)="onSubmit1(f)" #f="ngForm">
+    <div class="form-group">
+      <label for="firstName">Prénom</label>
+      <input type="text" class="form-control" id="firstName" formControlName="firstName" ngModel>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Nom</label>
+      <input type="text" class="form-control" id="lastName" formControlName="lastName" ngModel>
+    </div>
+    <div class="form-group">
+      <label for="email">Adresse mail</label>
+      <input type="text" class="form-control" id="email" formControlName="email" ngModel>
+    </div>
+    <button class="btn btn-primary" type="submit">Soumettre</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
